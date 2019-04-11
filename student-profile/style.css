@@ -1,0 +1,48 @@
+/*base css*/
+@import url('https://fonts.googleapis.com/css?familly=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, input:focus, textarea:focus, button:focus {outline:0 solid}
+a:hover{text-decoration: none}
+img{
+	max-width:100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin:0 0 15px;
+	font-weight: 700px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.section-padding{
+	padding:80px 0;
+}
+.student-side-menu li a {
+    color: #fff;
+    background-color: #333;
+    padding: 14px 20px;
+    display: block;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+.student-side-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.notice-block {
+    padding-top: 30px;
+}
+.notice-block a {
+    display: inline-block;
+    color: #ff0000;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.panel button {
+    margin-top: 20px;
+}
